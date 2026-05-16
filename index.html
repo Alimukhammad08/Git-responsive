@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tailwind</title>
+   <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+   <header class="flex max-w-[1355px] m-auto justify-evenly p-[20px] bg-[#438DB8] items-center text-white text-[16px] font-light">
+      <div class="lg:flex items-center gap-[10px] hidden sm:flex">
+         <p>Follow us: </p>
+         <img class="w-[24px] h-[24px] rounded-[100%]" src="./forimg/facebook.png" alt="">
+         <img class="w-[24px] h-[24px] rounded-[100%]" src="./forimg/instagarm.png" alt="">
+         <img class="w-[24px] h-[24px] rounded-[100%]" src="./forimg/twitter.png" alt="">
+      </div>
+      <div class="font-bold">Winter is coming! 50% off for new year</div>
+      <div class="lg:flex items-center gap-[20px] hidden">
+         <div class="flex gap-[5px] items-center">
+            <img src="./forimg/badge.png" alt="">
+            <p>(+98) 253-1189</p>
+         </div>
+         <div class="flex items-center gap-[5px]">
+            <img src="./forimg/badge (1).png" alt="">
+            <p>pigmentagency@gmail.com</p>
+         </div>
+      </div>
+   </header>
+
+   <section
+      class="flex flex-col p-[20px] max-w-[1300px] m-auto justify-between h-[150px] sm:flex-row sm:justify-evenly sm:items-center">
+      <div class="flex justify-evenly sm:gap-[30px]">
+         <div><img class="lg:hidden lg:w-[200px]" src="./forimg/menu.png" alt=""></div>
+         <div><img src="./forimg/Mansoury..png" alt=""></div>
+      </div>
+      <div class="hidden lg:flex gap-[20px] text-[18px] text-[#666666] font-[600]">
+         <p>Home</p>
+         <p>Products</p>
+         <p>Pages</p>
+         <p>About us</p>
+         <p>Contact us</p>
+      </div>
+      <div class="flex items-center justify-evenly sm:gap-[20px] text-[15px]">
+         <input class="placeholder:text-[#666666] py-[5px] pl-[25px] border-1 border-[gray] rounded-[5px] text-[20px]"
+            type="text" placeholder="Register / Login">
+         <img class="p-[10px] border-1 border-[gray] rounded-[5px]" src="./forimg/badge (2).png" alt="">
+         <img class="p-[10px] border-1 border-[gray] rounded-[5px]" src="./forimg/badge (3).png" alt="">
+      </div>
+   </section>
+
+   <section class="max-w-[1355px] m-auto relative bg-[url(../forimg/bg1.png)] bg-cover bg-center bg-no-repeat min-h-[500px] flex flex-col justify-between py-20 px-6 font-sans">
+
+      <div class="absolute inset-0 bg-black/20"></div>
+
+      <div class="relative z-10 max-w-6xl mx-auto w-full">
+         <h1 class="text-white text-3xl md:text-5xl font-medium leading-tight max-w-2xl text-center md:text-left">
+            Enhance Your Home with convenience and Style
+         </h1>
+      </div>
+
+      <div class="relative z-10 mx-auto w-full flex justify-center">
+         <div class="flex gap-2">
+            <div class="w-12 h-1.5 bg-[#5D9CCF] rounded-sm cursor-pointer"></div>
+            <div class="w-12 h-1.5 bg-[#5D9CCF] rounded-sm cursor-pointer"></div>
+            <div class="w-12 h-1.5 bg-white rounded-sm cursor-pointer"></div>
+         </div>
+      </div>
+
+   </section>
+
+   <section class="bg-[#4d81c500] py-16 px-[60px] sm:px-[10px]  font-sans max-w-[1300px] m-auto sm:overflow-hidden">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-0">
+
+         <div
+            class="w-full lg:w-[800px] sm:w-[330px] lg:  px-[20px] sm:px-[2px]  lg:h-[330px] sm:h-[450px]  flex flex-col justify-center gap-6">
+            <h2 class="text-[#0B1D3A] text-4xl font-bold leading-tight">
+               Discover Hot Deals for Your Home!
+            </h2>
+            <div class="w-16 h-1 bg-[#5D9CCF]"></div>
+            <p class="text-gray-500 text-sm leading-relaxed">
+               In Mansoury, daily you can find the highest discounts across all categories and products available on the
+               website.
+            </p>
+            <a href="#"
+               class="bg-[#5493B9] text-white px-6 py-3 rounded-md text-sm font-semibold flex items-center justify-between hover:bg-[#457b9d] transition-colors w-full">
+               Show All Products
+               <span>→</span>
+            </a>
+         </div>
+
+         <div
+            class="w-full lg:h-[320px] sm:w-[330px] sm:h-[320px] md:w-3/4 flex flex-wrap md:flex-nowrap gap-4 justify-center">
+
+            <div
+               class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex-1 min-w-[250px] max-w-[300px] relative group">
+
+               <div class="absolute top-6 left-6 bg-[#E73845] text-white text-xs font-bold px-2 py-3 rounded-full z-10">
+                  50%
+               </div>
+
+               <div
+                  class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md z-10">
+                  <img src="./forimg/ecommerce.png" class="w-5 h-5" alt="">
+               </div>
+
+               <div class="bg-[#86D1E1] rounded-lg mb-4 overflow-hidden h-[200px] flex items-center justify-center">
+                  <img src="./forimg/forcards.png" alt="Product">
+               </div>
+
+               <div class="space-y-2">
+                  <p
+                     class="text-gray-500 text-xs font-medium uppercase text-ellipsis overflow-hidden whitespace-nowrap">
+                     Bosch 300 Series SHEM63W55N
+                  </p>
+                  <div class="flex items-center gap-2">
+                     <span class="text-[#0B1D3A] font-bold">998$</span>
+                     <span class="text-gray-400 text-sm line-through">1200$</span>
+                  </div>
+               </div>
+
+               <div class="absolute bottom-4 right-4 bg-[#5493B9] w-8 h-8 rounded-md flex items-center justify-center ">
+                  <img src="./forimg/badge (2).png" class="w-4 h-4 invert" alt="cart">
+               </div>
+            </div>
+         </div>
+
+         <div>
+            <img class=" hidden lg:hidden sm:block sm:w-[150px]" src="./forimg/Product.png" alt="">
+         </div>
+
+         <div
+            class="w-full lg:h-[320px] lg:flex  sm:hidden sm:w-[330px] md:w-3/4 flex  flex-wrap md:flex-nowrap gap-4 justify-center">
+
+            <div
+               class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex-1 min-w-[250px] max-w-[300px] relative group">
+
+               <div class="absolute top-6 left-6 bg-[#E73845] text-white text-xs font-bold px-2 py-3 rounded-full z-10">
+                  50%
+               </div>
+
+               <div
+                  class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md z-10">
+                  <img src="./forimg/ecommerce.png" class="w-5 h-5" alt="">
+               </div>
+
+               <div class="bg-[#86D1E1] rounded-lg mb-4 overflow-hidden h-[200px] flex items-center justify-center">
+                  <img src="./forimg/forcards2.png" alt="Product">
+               </div>
+
+               <div class="space-y-2">
+                  <p
+                     class="text-gray-500 text-xs font-medium uppercase text-ellipsis overflow-hidden whitespace-nowrap">
+                     Bosch 300 Series SHEM63W55N
+                  </p>
+                  <div class="flex items-center gap-2">
+                     <span class="text-[#0B1D3A] font-bold">998$</span>
+                     <span class="text-gray-400 text-sm line-through">1200$</span>
+                  </div>
+               </div>
+
+               <div class="absolute bottom-4 right-4 bg-[#5493B9] w-8 h-8 rounded-md flex items-center justify-center ">
+                  <img src="./forimg/badge (2).png" class="w-4 h-4 invert" alt="cart">
+               </div>
+            </div>
+         </div>
+
+         <div
+            class="w-full lg:h-[320px] lg:flex sm:hidden sm:h-[320px] md:w-3/4 flex flex-wrap md:flex-nowrap gap-4 justify-center">
+
+            <div
+               class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex-1 min-w-[250px] max-w-[300px] relative group">
+
+               <div class="absolute top-6 left-6 bg-[#E73845] text-white text-xs font-bold px-2 py-3 rounded-full z-10">
+                  50%
+               </div>
+
+               <div
+                  class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md z-10">
+                  <img src="./forimg/ecommerce.png" class="w-5 h-5" alt="">
+               </div>
+
+               <div class="bg-[#86D1E1] rounded-lg mb-4 overflow-hidden h-[200px] flex items-center justify-center">
+                  <img src="./forimg/forcards3.png" alt="Product">
+               </div>
+
+               <div class="space-y-2">
+                  <p
+                     class="text-gray-500 text-xs font-medium uppercase text-ellipsis overflow-hidden whitespace-nowrap">
+                     Bosch 300 Series SHEM63W55N
+                  </p>
+                  <div class="flex items-center gap-2">
+                     <span class="text-[#0B1D3A] font-bold">998$</span>
+                     <span class="text-gray-400 text-sm line-through">1200$</span>
+                  </div>
+               </div>
+
+               <div class="absolute bottom-4 right-4 bg-[#5493B9] w-8 h-8 rounded-md flex items-center justify-center ">
+                  <img src="./forimg/badge (2).png" class="w-4 h-4 invert" alt="cart">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <section class="flex flex-wrap justify-evenly gap-[20px] max-w-[1300px] m-auto">
+      <div class="relative w-[400px] lg:w-[400px] flex justify-end items-center rounded-[20px] sm:w-[200px]">
+         <img class="rounded-[15px]" src="./forimg/sect4.png" alt="">
+         <div class="absolute bg-[#00000026] p-[10px] rounded-[10px] text-white">
+            <h1 class="font-light text-[15px] sm:text-[10px]">30% OFF</h1>
+            <p class="sm:text-[12px]">Quick and Hot</p>
+         </div>
+      </div>
+      <div class="relative w-[400px] lg:w-[400px] flex justify-end items-center sm:w-[200px]">
+         <img class="rounded-[15px]" src="./forimg/sect42.png" alt="">
+         <div class="absolute bg-[#00000026] p-[10px] rounded-[10px] text-white ">
+            <h1 class="font-light text-[15px] sm:text-[10px]">30% OFF</h1>
+            <p class="sm:text-[11px]">Kitchenware from <br>
+               Top Brands</p>
+         </div>
+      </div>
+      <div class="relative w-[400px] lg:w-[400px] flex justify-end items-center sm:w-[200px]">
+         <img class="rounded-[15px]" src="./forimg/sect423.png" alt="">
+         <div class="absolute bg-[#00000026] p-[10px] rounded-[10px] text-white">
+            <h1 class="font-light text-[15px] sm:text-[10px]">30% OFF</h1>
+            <p class="sm:text-[12px]">Travel with Quality</p>
+         </div>
+      </div>
+      <div class="relative w-[500px] lg:w-[500px] flex justify-end items-center sm:w-[300px]">
+         <img class="rounded-[15px]" src="./forimg/sect4234.png" alt="">
+         <div class="absolute bg-[#00000026] p-[10px] rounded-[10px] text-white">
+            <h1 class="font-light text-[15px] sm:text-[10px]">30% OFF</h1>
+            <p class="sm:text-[12px]">Cool and High-Quality <br>
+               Refrigerators and Freezers</p>
+         </div>
+      </div>
+      <div class="relative w-[500px] lg:w-[500px] flex justify-end items-center sm:w-[300px]">
+         <img class="rounded-[15px]" src="./forimg/sect42345.png" alt="">
+         <div class="absolute bg-[#00000026] p-[10px] rounded-[10px] text-white">
+            <h1 class="font-light text-[15px] sm:text-[10px]">30% OFF</h1>
+            <p class="sm:text-[12px]">Clean and Gleaming <br>
+               Clothes</p>
+         </div>
+      </div>
+   </section>
+
+   <section class="max-w-[1300px] m-auto flex justify-center text-[gray] text-[30px] lg:text-[50px] mt-[40px]">
+      <h1>Products You May Like</h1>
+   </section>
+
+   <section
+      class="bg-[#4d81c500] py-16 px-[60px] sm:px-[10px] lg:flex-wrap  lg:h-[800px]  font-sans max-w-[1300px] m-auto">
+      <div
+         class=" mx-auto flex flex-col md:flex-row lg:gap-[10px] md:gap-[20px] lg:flex-wrap md:flex-wrap justify-evenly items-center">
+         <div
+            class="w-full lg:h-[320px] md:w-[250px] sm:w-[330px] sm:h-[320px] lg:w-[300px] flex flex-wrap md:flex-nowrap gap-0 justify-center">
+
+            <div
+               class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex-1 min-w-[250px] max-w-[300px] relative group">
+
+               <div class="absolute top-6 left-6 bg-[#E73845] text-white text-xs font-bold px-2 py-3 rounded-full z-10">
+                  50%
+               </div>
+
+               <div class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md z-10">
+                  <img src="./forimg/ecommerce.png" class="w-5 h-5" alt="">
+               </div>
+
+               <div class="bg-[#86D1E1] rounded-lg mb-4 overflow-hidden h-[200px] flex items-center justify-center">
+                  <img src="./forimg/forcards.png" alt="Product">
+               </div>
+               
+               <div class="space-y-2">
+                  <p
+                     class="text-gray-500 text-xs font-medium uppercase text-ellipsis overflow-hidden whitespace-nowrap">
+                     Bosch 300 Series SHEM63W55N
+                  </p>
+                  <div class="flex items-center gap-2">
+                     <span class="text-[#0B1D3A] font-bold">998$</span>
+                     <span class="text-gray-400 text-sm line-through">1200$</span>
+                  </div>
+               </div>
+
+               <div class="absolute bottom-4 right-4 bg-[#5493B9] w-8 h-8 rounded-md flex items-center justify-center ">
+                  <img src="./forimg/badge (2).png" class="w-4 h-4 invert" alt="cart">
+               </div>
+            </div>
+         </div>
+
+
+         <div
+            class="w-full lg:h-[320px] lg:flex lg:w-[300px] md:w-[250px]  sm:w-[330px] md:w-3/4 flex  flex-wrap md:flex-nowrap gap-4 justify-center">
+
+            <div
+               class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex-1 min-w-[250px] max-w-[300px] relative group">
+
+               <div class="absolute top-6 left-6 bg-[#E73845] text-white text-xs font-bold px-2 py-3 rounded-full z-10">
+                  50%
+               </div>
+
+               <div
+                  class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md z-10">
+                  <img src="./forimg/ecommerce.png" class="w-5 h-5" alt="">
+               </div>
+
+               <div class="bg-[#86D1E1] rounded-lg mb-4 overflow-hidden h-[200px] flex items-center justify-center">
+                  <img src="./forimg/forcards2.png" alt="Product">
+               </div>
+
+               <div class="space-y-2">
+                  <p
+                     class="text-gray-500 text-xs font-medium uppercase text-ellipsis overflow-hidden whitespace-nowrap">
+                     Bosch 300 Series SHEM63W55N
+                  </p>
+                  <div class="flex items-center gap-2">
+                     <span class="text-[#0B1D3A] font-bold">998$</span>
+                     <span class="text-gray-400 text-sm line-through">1200$</span>
+                  </div>
+               </div>
+
+               <div class="absolute bottom-4 right-4 bg-[#5493B9] w-8 h-8 rounded-md flex items-center justify-center ">
+                  <img src="./forimg/badge (2).png" class="w-4 h-4 invert" alt="cart">
+               </div>
+            </div>
+         </div>
+
+         <div
+            class="w-full lg:h-[320px] lg:flex lg:w-[300px] sm:h-[320px] md:w-[250px]  md:w-3/4 flex flex-wrap md:flex-nowrap gap-4 justify-center">
+
+            <div
+               class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex-1 min-w-[250px] max-w-[300px] relative group">
+
+               <div class="absolute top-6 left-6 bg-[#E73845] text-white text-xs font-bold px-2 py-3 rounded-full z-10">
+                  50%
+               </div>
+
+               <div
+                  class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md z-10">
+                  <img src="./forimg/ecommerce.png" class="w-5 h-5" alt="">
+               </div>
+
+               <div class="bg-[#86D1E1] rounded-lg mb-4 overflow-hidden h-[200px] flex items-center justify-center">
+                  <img src="./forimg/e8274e3276db5f117c5e752b44b97b50a2757fff.png" alt="Product">
+               </div>
+
+               <div class="space-y-2">
+                  <p
+                     class="text-gray-500 text-xs font-medium uppercase text-ellipsis overflow-hidden whitespace-nowrap">
+                     Bosch 300 Series SHEM63W55N
+                  </p>
+                  <div class="flex items-center gap-2">
+                     <span class="text-[#0B1D3A] font-bold">998$</span>
+                     <span class="text-gray-400 text-sm line-through">1200$</span>
+                  </div>
+               </div>
+
+               <div class="absolute bottom-4 right-4 bg-[#5493B9] w-8 h-8 rounded-md flex items-center justify-center ">
+                  <img src="./forimg/badge (2).png" class="w-4 h-4 invert" alt="cart">
+               </div>
+            </div>
+         </div>
+
+         <div
+            class="w-full lg:h-[320px] lg:flex lg:w-[300px]  sm:h-[320px] md:w-[250px] md:w-3/4 flex flex-wrap md:flex-nowrap gap-4 justify-center">
+
+            <div
+               class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex-1 min-w-[250px] max-w-[300px] relative group">
+
+               <div class="absolute top-6 left-6 bg-[#E73845] text-white text-xs font-bold px-2 py-3 rounded-full z-10">
+                  50%
+               </div>
+
+               <div
+                  class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md z-10">
+                  <img src="./forimg/ecommerce.png" class="w-5 h-5" alt="">
+               </div>
+
+               <div class="bg-[#86D1E1] rounded-lg mb-4 overflow-hidden h-[200px] flex items-center justify-center">
+                  <img src="./forimg/8c5b4fd098ef17ef1d70f8c3e97668cc3d8109a2.png" alt="Product">
+               </div>
+
+               <div class="space-y-2">
+                  <p
+                     class="text-gray-500 text-xs font-medium uppercase text-ellipsis overflow-hidden whitespace-nowrap">
+                     Bosch 300 Series SHEM63W55N
+                  </p>
+                  <div class="flex items-center gap-2">
+                     <span class="text-[#0B1D3A] font-bold">998$</span>
+                     <span class="text-gray-400 text-sm line-through">1200$</span>
+                  </div>
+               </div>
+
+               <div class="absolute bottom-4 right-4 bg-[#5493B9] w-8 h-8 rounded-md flex items-center justify-center ">
+                  <img src="./forimg/badge (2).png" class="w-4 h-4 invert" alt="cart">
+               </div>
+            </div>
+         </div>
+         <div
+            class="w-full lg:h-[320px] lg:flex lg:w-[300px] md:w-[250px] sm:h-[320px] md:w-3/4 flex flex-wrap md:flex-nowrap gap-4 justify-center">
+
+            <div
+               class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex-1 min-w-[250px] max-w-[300px] relative group">
+
+               <div class="absolute top-6 left-6 bg-[#E73845] text-white text-xs font-bold px-2 py-3 rounded-full z-10">
+                  50%
+               </div>
+
+               <div
+                  class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md z-10">
+                  <img src="./forimg/ecommerce.png" class="w-5 h-5" alt="">
+               </div>
+
+               <div class="bg-[#86D1E1] rounded-lg mb-4 overflow-hidden h-[200px] flex items-center justify-center">
+                  <img src="./forimg/87ba19eecb85de80f90a4e7817f16d9d6cac6e11.png" alt="Product">
+               </div>
+
+               <div class="space-y-2">
+                  <p
+                     class="text-gray-500 text-xs font-medium uppercase text-ellipsis overflow-hidden whitespace-nowrap">
+                     Bosch 300 Series SHEM63W55N
+                  </p>
+                  <div class="flex items-center gap-2">
+                     <span class="text-[#0B1D3A] font-bold">998$</span>
+                     <span class="text-gray-400 text-sm line-through">1200$</span>
+                  </div>
+               </div>
+
+               <div class="absolute bottom-4 right-4 bg-[#5493B9] w-8 h-8 rounded-md flex items-center justify-center ">
+                  <img src="./forimg/badge (2).png" class="w-4 h-4 invert" alt="cart">
+               </div>
+            </div>
+         </div>
+         <div
+            class="w-full lg:h-[320px] lg:flex lg:w-[300px] md:w-[250px] sm:h-[320px] md:w-3/4 flex flex-wrap md:flex-nowrap gap-4 justify-center">
+
+            <div
+               class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex-1 min-w-[250px] max-w-[300px] relative group">
+
+               <div class="absolute top-6 left-6 bg-[#E73845] text-white text-xs font-bold px-2 py-3 rounded-full z-10">
+                  50%
+               </div>
+
+               <div
+                  class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md z-10">
+                  <img src="./forimg/ecommerce.png" class="w-5 h-5" alt="">
+               </div>
+
+               <div class="bg-[#86D1E1] rounded-lg mb-4 overflow-hidden h-[200px] flex items-center justify-center">
+                  <img src="./forimg/2cd92da7068bfcb67493f21867bce222f8172911.png" alt="Product">
+               </div>
+
+               <div class="space-y-2">
+                  <p
+                     class="text-gray-500 text-xs font-medium uppercase text-ellipsis overflow-hidden whitespace-nowrap">
+                     Bosch 300 Series SHEM63W55N
+                  </p>
+                  <div class="flex items-center gap-2">
+                     <span class="text-[#0B1D3A] font-bold">998$</span>
+                     <span class="text-gray-400 text-sm line-through">1200$</span>
+                  </div>
+               </div>
+
+               <div class="absolute bottom-4 right-4 bg-[#5493B9] w-8 h-8 rounded-md flex items-center justify-center ">
+                  <img src="./forimg/badge (2).png" class="w-4 h-4 invert" alt="cart">
+               </div>
+            </div>
+         </div>
+         <div
+            class="w-full lg:h-[320px] lg:flex lg:w-[300px] md:w-[250px]  sm:h-[320px] md:w-3/4 flex flex-wrap md:flex-nowrap gap-4 justify-center">
+
+            <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex-1 min-w-[250px] max-w-[300px] relative group">
+
+               <div class="absolute top-6 left-6 bg-[#E73845] text-white text-xs font-bold px-2 py-3 rounded-full z-10">
+                  50%
+               </div>
+
+               <div
+                  class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md z-10">
+                  <img src="./forimg/ecommerce.png" class="w-5 h-5" alt="">
+               </div>
+
+               <div class="bg-[#86D1E1] rounded-lg mb-4 overflow-hidden h-[200px] flex items-center justify-center">
+                  <img src="./forimg/6eab6e7e23559f350a05009d0f3603751278ce1b.png" alt="Product">
+               </div>
+
+               <div class="space-y-2">
+                  <p
+                     class="text-gray-500 text-xs font-medium uppercase text-ellipsis overflow-hidden whitespace-nowrap">
+                     Bosch 300 Series SHEM63W55N
+                  </p>
+                  <div class="flex items-center gap-2">
+                     <span class="text-[#0B1D3A] font-bold">998$</span>
+                     <span class="text-gray-400 text-sm line-through">1200$</span>
+                  </div>
+               </div>
+
+               <div class="absolute bottom-4 right-4 bg-[#5493B9] w-8 h-8 rounded-md flex items-center justify-center ">
+                  <img src="./forimg/badge (2).png" class="w-4 h-4 invert" alt="cart">
+               </div>
+            </div>
+         </div>
+         
+         <div class="w-full lg:h-[320px] lg:flex lg:w-[300px] md:w-[250px]  sm:h-[320px] md:w-3/4 flex flex-wrap md:flex-nowrap gap-4 justify-center">
+
+            <div
+               class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex-1 min-w-[250px] max-w-[300px] relative group">
+
+               <div class="absolute top-6 left-6 bg-[#E73845] text-white text-xs font-bold px-2 py-3 rounded-full z-10">
+                  50%
+               </div>
+
+               <div
+                  class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md z-10">
+                  <img src="./forimg/ecommerce.png" class="w-5 h-5" alt="">
+               </div>
+
+               <div class="bg-[#86D1E1] rounded-lg mb-4 overflow-hidden h-[200px] flex items-center justify-center">
+                  <img src="./forimg/forcards3.png" alt="Product">
+               </div>
+
+               <div class="space-y-2">
+                  <p
+                     class="text-gray-500 text-xs font-medium uppercase text-ellipsis overflow-hidden whitespace-nowrap">
+                     Bosch 300 Series SHEM63W55N
+                  </p>
+                  <div class="flex items-center gap-2">
+                     <span class="text-[#0B1D3A] font-bold">998$</span>
+                     <span class="text-gray-400 text-sm line-through">1200$</span>
+                  </div>
+               </div>
+
+               <div class="absolute bottom-4 right-4 bg-[#5493B9] w-8 h-8 rounded-md flex items-center justify-center ">
+                  <img src="./forimg/badge (2).png" class="w-4 h-4 invert" alt="cart">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <section class="max-w-[1355px] w-[100%] md:w-[100%] lg:w-[100%]  m-auto relative">
+      <img class="lg:w-[1355px] h-[300px] lg:h-[400px] md:w-[100%]" src="./forimg/sect5.png" alt="">
+      <div
+         class="absolute lg:left-[830px] top-[1px] md:left-[500px] left-[120px] lg:w-[330px] w-[200px] h-[100%] flex flex-col justify-evenly bg-[#4e4e4e4f] px-[30px] text-white">
+         <h1 class="lg:text-[37px] text-[20px] md:text-[23px] text-center"><span class="lg:font-bold lg:text-[40px]">Mansoury.</span><br>
+            Steel 10-Piece Cookware Set</h1>
+         <button
+            class="inline-flex items-center justify-between border-2 border-white bg-transparent text-white lg:px-8 lg:py-3 px-[10px] rounded-lg text-lg font-semibold text-[14px]">
+            <span>Show Products</span>
+            <span class="ml-4 text-2xl group-hover:translate-x-1 transition-transform">→</span>
+         </button>
+      </div>
+   </section>
+   <br>
+   <footer class="bg-white pt-10 font-sans">
+
+      <div class="max-w-7xl mx-auto px-6 border-b border-gray-100 pb-10">
+         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <div class="flex items-center gap-4">
+               <img src="./forimg/user.png" alt="icon" class="w-10 h-10 object-contain">
+               <div>
+                  <h4 class="font-bold text-[#0B1D3A] text-sm">Online Support</h4>
+                  <p class="text-gray-400 text-xs">Dedicated Support Team</p>
+               </div>
+            </div>
+
+            <div class="flex items-center gap-4">
+               <img src="./forimg/truck.png" alt="icon" class="w-10 h-10 object-contain">
+               <div>
+                  <h4 class="font-bold text-[#0B1D3A] text-sm">Free Shipping</h4>
+                  <p class="text-gray-400 text-xs">Purchases Over $100</p>
+               </div>
+            </div>
+
+            <div class="flex items-center gap-4">
+               <img src="./forimg/my orders.png" alt="icon" class="w-10 h-10 object-contain">
+               <div>
+                  <h4 class="font-bold text-[#0B1D3A] text-sm">Timeless Shopping</h4>
+                  <p class="text-gray-400 text-xs">24/7 Purchasing</p>
+               </div>
+            </div>
+
+            <div class="flex items-center gap-4">
+               <img src="./forimg/Free Shipping & Returns.png" alt="icon" class="w-10 h-10 object-contain">
+               <div>
+                  <h4 class="font-bold text-[#0B1D3A] text-sm">Product Returns</h4>
+                  <p class="text-gray-400 text-xs">No-Questions-Asked Returns</p>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-6 py-12">
+         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+            <div class="space-y-4">
+               <h4 class="font-bold text-[#0B1D3A]">Stay Connected</h4>
+               <div class="text-gray-500 text-sm space-y-1">
+                  <p>Address: Istanbul, Turkey</p>
+                  <p>Phone: (+90) 985 98 75</p>
+               </div>
+               <h5 class="font-bold text-[#0B1D3A] text-sm pt-2">Follow us on social media</h5>
+               <div class="flex gap-4">
+                  <img src="./forimg/twitter.png" class="w-5 h-5 " alt="tw">
+                  <img src="./forimg/facebook.png" class="w-5 h-5 " alt="fb">
+                  <img src="./forimg/instagarm.png" class="w-5 h-5 " alt="in">
+               </div>
+            </div>
+
+            <div>
+               <h4 class="font-bold text-[#0B1D3A] mb-4">Mansoury.</h4>
+               <div class="flex flex-col gap-2 text-gray-500 text-sm">
+                  <p>About Us</p>
+                  <p>Careers</p>
+                  <p>Collaboration</p>
+                  <p>Dashboard</p>
+                  <p>Policies</p>
+               </div>
+            </div>
+
+            <div>
+               <h4 class="font-bold text-[#0B1D3A] mb-4">Customer Services</h4>
+               <div class="flex flex-col gap-2 text-gray-500 text-sm">
+                  <p>Rules and Regulations</p>
+                  <p>Terms of Use</p>
+                  <p>Return Procedures</p>
+                  <p>Privacy Policy</p>
+                  <p>Forums</p>
+               </div>
+            </div>
+
+            <div>
+               <h4 class="font-bold text-[#0B1D3A] mb-4">Quick Access</h4>
+               <div class="flex flex-col gap-2 text-gray-00 text-sm">
+                  <p>Contact Us</p>
+                  <p>Blog</p>
+                  <p>Returns and refunds</p>
+                  <p>Track order</p>
+                  <p>FAQ</p>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <div class="bg-[#5493B9] py-4 text-center">
+         <p class="text-white text-sm opacity-90">
+            © All Rights Reserved for Mansoury - 2023
+         </p>
+      </div>
+
+   </footer>
+</body>
+
+</html>
